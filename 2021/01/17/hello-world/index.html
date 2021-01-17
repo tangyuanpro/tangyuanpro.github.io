@@ -918,7 +918,7 @@ var loadCSS = function( href, before, media, attributes ){
   function load_twikoo() {
 	setTimeout(function() {
 	
-	  loadScript('https://cdn.jsdelivr.net/npm/twikoo@latest', pjax_twikoo)
+	  loadScript('https://cdn.jsdelivr.net/npm/twikoo@1.0.0', pjax_twikoo)
 	
 	}, 1);
   }
@@ -929,7 +929,7 @@ var loadCSS = function( href, before, media, attributes ){
       let defaultPath = '';
       path = defaultPath || "decodeURI(window.location.pathname)"; //神奇的pathname
     }
-    twikoo.init(Object.assign({"js":"https://cdn.jsdelivr.net/npm/twikoo@latest","path":null,"envId":"yxblog-1gyd0kx2b9556eaf"}, {
+    twikoo.init(Object.assign({"js":"https://cdn.jsdelivr.net/npm/twikoo@1.0.0","path":null,"envId":"yxblog-1gyd0kx2b9556eaf"}, {
 	  el: '#twikoo_container',
 	  path: path,
     }))
