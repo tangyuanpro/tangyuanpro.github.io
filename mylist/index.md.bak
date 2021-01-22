@@ -1,4 +1,5 @@
 ---
-title: list
-date: 2021-01-19 20:17:46
+layout: list
+group: mylist
+index: true
 ---
