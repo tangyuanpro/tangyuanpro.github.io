@@ -519,7 +519,7 @@
               
             
               
-                <p>本文永久链接是：<a href=https://blog.yzsdcm.top/2021/01/21/test/>https://blog.yzsdcm.top/2021/01/21/test/</a></p>
+                <p>本文永久链接是：<a href=https://yzsdcm.top/2021/01/21/test/>https://yzsdcm.top/2021/01/21/test/</a></p>
               
             
           </blockquote>
@@ -558,7 +558,7 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://blog.yzsdcm.top/2021/01/21/test/&title=test - 夜夕的小博客&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://yzsdcm.top/2021/01/21/test/&title=test - 夜夕的小博客&summary="
           
           >
           
@@ -570,7 +570,7 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://blog.yzsdcm.top/2021/01/21/test/&title=test - 夜夕的小博客&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://yzsdcm.top/2021/01/21/test/&title=test - 夜夕的小博客&summary="
           
           >
           
@@ -582,7 +582,7 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://blog.yzsdcm.top/2021/01/21/test/&title=test - 夜夕的小博客&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://yzsdcm.top/2021/01/21/test/&title=test - 夜夕的小博客&summary="
           
           >
           
@@ -717,7 +717,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Tue Jan 26 2021 10:42:17 GMT+0800 (Central Standard Time)</div>
+            <div id="last-update" style="display: none;">Tue Jan 26 2021 11:19:22 GMT+0800 (Central Standard Time)</div>
             <div id="last-update-show">2021-01-26 日</div>
           
         </div>
@@ -1520,7 +1520,7 @@ function setSearchService() {
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'https://blog.yzsdcm.top' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'https://yzsdcm.top' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1538,7 +1538,7 @@ function setSearchService() {
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'https://blog.yzsdcm.top' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'https://yzsdcm.top' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1560,7 +1560,7 @@ function setSearchService() {
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'https://blog.yzsdcm.top' + pv.getAttribute('data-path');
+          var url = 'https://yzsdcm.top' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
