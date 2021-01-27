@@ -1,6 +1,7 @@
 ---
 layout: friends # 必须
 title: 我的朋友们 # 可选，这是友链页的标题
+cover: true
 ---
 
 这里写友链上方的内容。
