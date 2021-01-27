@@ -4,8 +4,8 @@ title: 我的朋友们 # 可选，这是友链页的标题
 cover: true
 ---
 
-这里写友链上方的内容。
+{% issues sites | api=https://api.github.com/repos/tangyuanpro/tangyuanpro.github.io/issues?sort=updated&state=open&page=1&per_page=100&labels=active %}
 
 <!-- more -->
 
-这里可以写友链页面下方的文字备注，例如自己的友链规范、示例等。
+施工中
