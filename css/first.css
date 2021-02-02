@@ -1761,8 +1761,11 @@ ul.list-v >li>a:hover {
     --color-meta: #888;
     --color-link: #888;
   }
-  :root:not([data-user-color-scheme]) #l_body {
-    background-color: #000 !important;
+  :root:not([data-user-color-scheme]) .backstretch {
+    background-color: #282c34 !important;
+  }
+  :root:not([data-user-color-scheme]) .backstretch-item {
+    display: none !important;
   }
   :root:not([data-user-color-scheme]) img {
     filter: brightness(70%) !important;
@@ -1873,19 +1876,6 @@ ul.list-v >li>a:hover {
     color: var(--color-text);
     background: #6f6f72;
   }
-  :root:not([data-user-color-scheme]) #valine_container button {
-    background-color: var(--color-block) !important;
-  }
-  :root:not([data-user-color-scheme]) #valine_container .vcards .vcontent.expand:before {
-    background: none !important;
-  }
-  :root:not([data-user-color-scheme]) #valine_container .vcards .vcontent.expand:after {
-    background: #393c40 !important;
-  }
-  :root:not([data-user-color-scheme]) .v[data-class=v] code,
-  :root:not([data-user-color-scheme]) .v[data-class=v] pre {
-    background-color: #332828 !important;
-  }
 }
 [data-user-color-scheme='dark'] {
   --color-site-body: #000;
@@ -1909,8 +1899,11 @@ ul.list-v >li>a:hover {
   --color-meta: #888;
   --color-link: #888;
 }
-[data-user-color-scheme='dark'] #l_body {
-  background-color: #000 !important;
+[data-user-color-scheme='dark'] .backstretch {
+  background-color: #282c34 !important;
+}
+[data-user-color-scheme='dark'] .backstretch-item {
+  display: none !important;
 }
 [data-user-color-scheme='dark'] img {
   filter: brightness(70%) !important;
@@ -2025,19 +2018,6 @@ ul.list-v >li>a:hover {
 [data-user-color-scheme='dark'] #archive-page .archive .all-tags ul li span {
   color: var(--color-text);
   background: #6f6f72;
-}
-[data-user-color-scheme='dark'] #valine_container button {
-  background-color: var(--color-block) !important;
-}
-[data-user-color-scheme='dark'] #valine_container .vcards .vcontent.expand:before {
-  background: none !important;
-}
-[data-user-color-scheme='dark'] #valine_container .vcards .vcontent.expand:after {
-  background: #393c40 !important;
-}
-[data-user-color-scheme='dark'] .v[data-class=v] code,
-[data-user-color-scheme='dark'] .v[data-class=v] pre {
-  background-color: #332828 !important;
 }
 @media screen and (prefers-color-scheme: dark) and (max-width: 500px) {
   .l_header .m_search {
